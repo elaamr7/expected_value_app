@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App Expected Value</string>
+    <string name="welcome_greeting">Selamat Datang</string>
+    <string name="first_intro">Takut rugi karena belum bisa menentukan persediaan jualan dengan tepat?</string>
+    <string name="second_intro">Nggak perlu takut lagi!</string>
+    <string name="third_intro">Sekarang, kamu bisa menentukan jumlah persediaan dengan cepat dan tepat di setiap harinya</string>
+    <string name="start_button">Mulai</string>
+    <string name="title_count">Mulai Perhitungan</string>
+    <string name="title_selling_purchase_price">Harga Jual dan Beli</string>
+    <string name="subtitle_selling_purchase_price">Inputkan harga jual dan beli terlebih dahulu
+Misal : harga jual 1 bakso adalah Rp 80.000</string>
+    <string name="label_selling_price">Harga jual</string>
+    <string name="label_purchase_price">Harga beli</string>
+    <string name="title_demand_probability">Persediaan dan Probabilitas</string>
+    <string name="subtitle_demand_probability">Inputkan semua kemungkinan persediaan
+dan probabilitasnya. Misal : 120 prob 0.2 </string>
+    <string name="label_demand">Persediaan</string>
+    <string name="label_probability">Probabilitas</string>
+    <string name="button_count">Hitung</string>
+    <string name="label_quantity_demand">Jumlah persediaan :</string>
+    <string name="title_result">Hasil Perhitungan</string>
+    <string name="subtitle_result">Ini adalah jumlah persediaan terbaik yang harus kamu siapkan tiap harinya</string>
+    <string name="button_see_details">Lihat Detail Perhitungan</string>
+    <string name="button_recalculate">Hitung lagi</string>
+
+</resources>

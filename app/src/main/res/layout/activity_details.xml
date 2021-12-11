@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailsActivity">
+
+    <include
+        android:id="@+id/toolbar_details"
+        layout="@layout/toolbar">
+    </include>
+
+    <LinearLayout
+        android:paddingHorizontal="16dp"
+        android:id="@+id/pay_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_details">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Perhitungan Pay Off"
+            style="@style/App.TextAppearence.Body1"/>
+
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_view"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pay_off">
+        <TableLayout
+            android:paddingHorizontal="16dp"
+            android:id="@+id/table_pay_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:paddingHorizontal="16dp"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/horizontal_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Hasil EV Terbesar"
+            style="@style/App.TextAppearence.Body1"/>
+
+        <TextView
+            android:id="@+id/largest_ev"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80000"
+            style="@style/App.TextAppearence.Body1"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
